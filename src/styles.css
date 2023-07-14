@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+#big {
+    font-size: 50px;
+}
+
+#small {
+    font-size: 20px;
+}
+
+.left {
+    border: 2px solid red;
+    display: flex;
+    
+}
+
+.right {
+    border: 2px solid green;
+}
+
+.top {
+    border: 2px solid yellow;
+}
+
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    align-self: flex-end;
+}
